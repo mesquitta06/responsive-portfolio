@@ -128,3 +128,51 @@ footer .container
     font-size: 0.9em;
     color: var(--text-primary)
 }
+
+.link{
+    color: var(--accent);
+
+}
+.link:hover{
+    color: var(--text-primary);
+
+}
+
+.link span{
+    margin-right: 0.5em;
+}
+.link:hover span{
+    margin-right: 1em;
+}
+
+/* header */
+
+header{
+    padding: 6em 3em 3em 3em;
+    background: linear-gradient(
+        180deg,
+        var (--primary),
+        var (--secondary),
+    );
+    min-height: 100vh;
+}
+
+header p{
+     margin-bottom: 1rem;
+}
+
+/* navbar */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5em;
+    z-index: 3;
+}
+.brand{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: var(--accent);
+}
