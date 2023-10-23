@@ -113,5 +113,18 @@ footer .container
     justify-content: center;
     gap: 2em;
 
+
 }
 
+/* botões */
+.btn{
+    display: inline-block;
+    background: linear-gradient(310deg , var(--accent), var(--accent-darken)
+    );
+
+    padding: 1em 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    color: var(--text-primary)
+}
