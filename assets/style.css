@@ -1,0 +1,117 @@
+/* variaveis */
+:root{
+    --accent: #d61e2b;
+    --accent-darken : #a0101a; 
+    --primary : #191919;
+    --secondary: #111111;
+    --panel: #1e1e1e;
+    --text-primary:#fff;
+    --text-secondary: #8d8d8d;
+
+}
+
+.light-theme{
+    --primary: #efefef;
+    --secondary: #e4e4e4;
+    --panel: #fff;
+    --text-primary: #000;
+    --text-secondary: #7a7a7a;
+}
+
+/* configurações do reset estilos */
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background: var(--secondary);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+
+}
+img{
+    transition:none
+}
+h1, h3{
+    color: var(--text-primary);
+    margin: 0.3rem 0;
+    line-height: 45px;
+}
+
+h1{
+    margin-bottom: 0.5em;
+}
+h4{
+    color: var(--accent);
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-primary);
+}
+/* .link{
+   
+        text-decoration: none;
+        color: var()(--text-primary);
+  
+} */
+ul{
+    list-style: none;
+}
+p{
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    line-height: 25px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 4em 3em;
+}
+
+
+.menu-icon{
+    width: 10px;
+    height: 20px;
+    
+}
+
+
+/* layou trabalhado com grid e flexbox */
+
+header,
+.menu,
+.theme-controls,
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container,
+.header-body .container,
+.services, .counters,
+.projects .container > div:nth-child(1),
+.call-to-action,
+footer .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-counters,
+.projects-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 2em;
+
+}
+
