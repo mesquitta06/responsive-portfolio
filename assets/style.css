@@ -102,8 +102,10 @@ header,
 footer .container
 {
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .sub-counters,
@@ -384,9 +386,61 @@ color :#189f21
     margin-bottom: 3em;
 }
 
-.profile-img{
+.projetc img{
     width: 100%;
 
 }
 
 /* seção de contatos */
+
+.contact{
+    background: linear-gradient(0deg,
+    var(--primary) 0%,
+    var(--primary) 50%,
+    var(--secondary)50%,
+    var(--secondary)100%
+    );
+
+}
+
+.call-to-action{
+    background-color: var(--panel);
+    padding: 3em;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+footer{
+    background: var(--secondary);
+
+}
+
+footer> div{
+    background: var(--primary);
+    padding: 2em;
+}
+.footer-menu{
+    gap: 2em;
+    padding: 2em;
+}
+.footer-menu a:hover{
+    color: var(--accent)
+}
+
+footer .container{
+   gap:2em; 
+}
+.social-media li{
+    display: inline-block;
+    font-size: 1.2em;
+    margin:0 0.5em;
+}
+
+.social-media a{
+    color: var(--text-secondary)
+
+}
+
+.social-media a:hover{
+    color: var(--text-primary);
+}
