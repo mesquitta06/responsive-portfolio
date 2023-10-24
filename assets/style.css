@@ -366,3 +366,27 @@ color :#189f21
     font-size: 2em;
       
 }
+
+/* area de projetos */
+
+.projects{
+    background: linear-gradient(180deg,
+    var(--secondary) 0%,
+    var(--secondary) 70%,
+    var (--primary)  70%,
+    var(--primary) 100%
+    );
+}
+
+.projects .container > div:nth-child(1){
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.profile-img{
+    width: 100%;
+
+}
+
+/* seção de contatos */
