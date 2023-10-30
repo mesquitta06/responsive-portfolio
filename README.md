@@ -8,3 +8,5 @@
 <h2>Sobre:</h2>
 Projeto orientado para estudos de sites singlepage, com foco na responsividade.
 
+<img src="https://github.com/mesquitta06/responsive-portfolio/blob/main/assets/img/site-gif.gif" width= 500/>
+
