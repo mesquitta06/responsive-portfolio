@@ -444,3 +444,67 @@ footer .container{
 .social-media a:hover{
     color: var(--text-primary);
 }
+
+/* responsive design */
+
+@media screen and (max-width: 1065px) {
+    .profile-img{
+        order: 2;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    h1{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar .menu-open{
+        height: 12.5em;
+        padding: 1.5em;
+
+    }
+
+    .menu-btn{
+        display: block;
+       margin-right: 2em;
+ 
+    }
+    .menu{
+        background: var(--panel);
+        position: absolute;
+        top: 4.5em;
+        left: 0;
+        height: 0;
+        width: 100%;
+        padding: 0 1.5em;
+        overflow-y: hidden;
+        flex-direction: column;
+        transition-timing-function: ease-in-out;
+    }
+    .sub-counters{
+        grid-template-columns: 1fr;
+    }
+
+    .services,
+    .counters{
+            flex-wrap: wrap;
+            justify-content: center;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .projects-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and(max-width: 500px){
+    .profile-img,
+    .profile-img img{
+        width: 100%;
+    }
+}
