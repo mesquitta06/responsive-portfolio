@@ -5,3 +5,6 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width= 50/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width= 50/>
 
+<h2>Sobre:</h2>
+Projeto orientado para estudos de sites singlepage, com foco na responsividade.
+
